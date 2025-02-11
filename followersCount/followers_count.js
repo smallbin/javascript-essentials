@@ -3,7 +3,12 @@ let count = 0;
 function increaseCount() {
     count++;
     displayCount();
-    checkCountValue()
+    checkCountValue();
+}
+
+function resetCount() {
+    count = 0;
+    displayCount();
 }
 
 function displayCount() {
